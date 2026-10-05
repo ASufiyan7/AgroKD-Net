@@ -20,13 +20,6 @@ This project demonstrates how to compress the spatial awareness of a massive fou
 | **Loss Function** | Custom `AgroImbalanceLoss` | Forces network attention on minority classes (weeds/crops) over background (soil). |
 | **Distillation** | Feature-Map MSE | Aligns the spatial understanding of the Student with the Teacher. |
 
-## 👁️ Visual Interpretability (Grad-CAM)
-
-*To prove the model isn't just guessing based on background pixels, we extracted the deep feature maps from the final convolutional layer. As shown in the Attention Map below, the model successfully isolates and "looks" exclusively at the plant structures, completely ignoring the soil.*
-
-> **[📝 NOTE TO AUTHOR: Place your 4-panel image (Raw, Truth, Prediction, Attention) in the `assets/` folder and name it `attention_map.jpg` to display it here.]**
-
-![Network Attention Map](assets/attention_map.jpg)
 
 ## 💻 Project Structure
 
