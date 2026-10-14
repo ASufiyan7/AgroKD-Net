@@ -6,7 +6,7 @@ AgroKD-Net is a computer vision project focused on binary plant segmentation. Th
 I built a teacher–student pipeline to explore whether **knowledge distillation could transfer useful segmentation knowledge from a DeepLabV3-ResNet50 teacher to a MobileNetV3-Large student**.
 
 The project includes a teacher model, a baseline student trained without distillation, and a second student trained using knowledge distillation. Comparing all three helped me understand the trade-offs between segmentation quality, model size, and inference speed.
-
+ 
 ---
 
 ## 📌 Project Overview
