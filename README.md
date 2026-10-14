@@ -7,8 +7,6 @@ I built a teacher–student pipeline to explore whether **knowledge distillation
 
 The project includes a teacher model, a baseline student trained without distillation, and a second student trained using knowledge distillation. Comparing all three helped me understand the trade-offs between segmentation quality, model size, and inference speed.
 
-> **Current result:** The teacher achieved 93.30% test mIoU. The baseline student achieved 82.76%, while the distilled student achieved 82.46%. Distillation did not improve the student's final test mIoU in this experiment, which leaves room for further experimentation.
-
 ---
 
 ## 📌 Project Overview
